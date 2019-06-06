@@ -6,6 +6,7 @@
 
     <!--   add google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto+Slab&display=swap" rel="stylesheet">
+
     <!--add leaflet-->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin="" />
     <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js" integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og==" crossorigin=""></script>
@@ -13,79 +14,69 @@
     <!-- Load Esri Leaflet -->
     <script src="https://unpkg.com/esri-leaflet@2.2.4/dist/esri-leaflet.js" integrity="sha512-tyPum7h2h36X52O2gz+Pe8z/3l+Y9S1yEUscbVs5r5aEY5dFmP1WWRY/WLLElnFHa+k1JBQZSCDGwEAnm2IxAQ==" crossorigin=""></script>
 
-    <!-- Load Esri Leaflet Renderers from CDN -->
-    <script src="https://unpkg.com/esri-leaflet-renderers@2.0.6/dist/esri-leaflet-renderers.js" integrity="sha512-mhpdD3igvv7A/84hueuHzV0NIKFHmp2IvWnY5tIdtAHkHF36yySdstEVI11JZCmSY4TCvOkgEoW+zcV/rUfo0A==" crossorigin=""></script>
-
-    <!--
-       Load PCT line
-    <script src="./Data/PCTjson.js"></script>
--->
-
-
 </head>
 
+
 <body>
-
-    <body>
-        <div class="app-container">
-            <div class="navbar">
-                <div id="title">
-                    <h1>Pacific Crest Trail Viewer</h1>
-                </div>
-                <div class="spacer"></div>
-                <div><a href="https://www.pcta.org/">PCT Association</a></div>
-                <div><a href="https://www.pcc.edu/">PCC Homepage</a></div>
+    <div class="app-container">
+        <div class="navbar">
+            <div id="title">
+                <h1>Pacific Crest Trail Viewer</h1>
             </div>
-
-
-
-
-            <div class="side-pane1">
-                <div id="box2">
-                    <img src="https://winterwildlands.org/wwa/wp-content/uploads/2018/04/PCT-50th-Servicemark-2018-300px-291x300.png" style="width: 100%">
-
-                </div>
-
-
-                <div id="box1">
-
-                </div>
-
-                <div class="spacer"></div>
-
-                <div id="box4">
-                    <h5>Produced by Andrew Cummings for GEO 244, Portland Community College, Spring 2019</h5>
-                </div>
-
-
-            </div>
-
-            <div class="side-pane2">
-                <div id="box5">
-                    <h4>The Pacific Crest Trail, officially designated as the Pacific Crest National Scenic Trail (PCT) is a long-distance hiking and equestrian trail closely aligned with the highest portion of the Sierra Nevada and Cascade mountain ranges. The PCT is 2,653 mi long and ranges in elevation from just above sea level at the Oregon–Washington border to 13,153 feet at Forester Pass in the Sierra Nevada. The route passes through 25 national forests and 7 national parks. Its midpoint is near Chester, California (near Mt. Lassen), where the Sierra and Cascade mountain ranges meet.</h4>
-
-                </div>
-
-                <div id="box6">
-
-                </div>
-
-                <div id="box7">
-
-
-                </div>
-
-                <div class="spacer"></div>
-
-
-
-            </div>
-            <div class="map-container">
-                <div id="map"></div>
-            </div>
-
+            <div class="spacer"></div>
+            <div><a href="https://www.pcta.org/">PCT Association</a></div>
+            <div><a href="https://www.pcc.edu/">PCC Homepage</a></div>
         </div>
 
 
-        <script src="./map.js"></script>
-    </body></html>
+
+
+        <div class="side-pane1">
+            <div id="box2">
+                <img src="https://winterwildlands.org/wwa/wp-content/uploads/2018/04/PCT-50th-Servicemark-2018-300px-291x300.png" style="width: 100%">
+
+            </div>
+
+
+            <div id="box1">
+
+            </div>
+
+            <div class="spacer"></div>
+
+            <div id="box4">
+                <h5>Produced by Andrew Cummings for GEO 244, Portland Community College, Spring 2019</h5>
+            </div>
+
+
+        </div>
+
+        <div class="side-pane2">
+            <div id="box5">
+                <h4>The Pacific Crest Trail, officially designated as the Pacific Crest National Scenic Trail (PCT) is a long-distance hiking and equestrian trail closely aligned with the highest portion of the Sierra Nevada and Cascade mountain ranges. The PCT is 2,653 mi long and ranges in elevation from just above sea level at the Oregon–Washington border to 13,153 feet at Forester Pass in the Sierra Nevada. The route passes through 25 national forests and 7 national parks. Its midpoint is near Chester, California (near Mt. Lassen), where the Sierra and Cascade mountain ranges meet.</h4>
+
+            </div>
+
+            <div id="box6">
+
+            </div>
+
+            <div id="box7">
+
+
+            </div>
+
+            <div class="spacer"></div>
+
+
+
+        </div>
+        <div class="map-container">
+            <div id="map"></div>
+        </div>
+
+    </div>
+
+
+    <script src="./map.js"></script>
+</body></html>

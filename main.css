@@ -4,7 +4,6 @@ body {
     margin: 0 auto;
     padding: 5px;
     font-family: 'Montserrat', sans-serif;
-
 }
 
 h1,
@@ -18,9 +17,10 @@ h6 {
 }
 
 h1 {
-    text-shadow: 2px 2px 10px  #0b7577;
-    
+    text-shadow: 2px 2px 10px #0b7577;
+
 }
+
 a:link {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
@@ -45,7 +45,8 @@ a:active {
     opacity: 0.6;
 }
 
-.navbar a:active{ transform: translateY(2px) translateX(2px);  
+.navbar a:active {
+    transform: translateY(2px) translateX(2px);
 }
 
 .app-container {
@@ -75,12 +76,6 @@ a:active {
     flex: 1
 }
 
-#map {
-    height: 100%;
-    width: 100%;
-}
-
-
 .side-pane1 {
     grid-row-start: 2;
     grid-row-end: 3;
@@ -91,7 +86,6 @@ a:active {
     text-align: center;
 
 }
-
 
 
 .side-pane2 {
@@ -124,30 +118,12 @@ a:active {
     padding: 10px 10px 10px 10px
 }
 
+
+#map {
+    height: 100%;
+    width: 100%;
+}
+
 #box5 {
     font-size: 1.6vh;
 }
-/*
-#myBtn {
-    background-color: darkcyan;
-    border-radius: 10px;
-    border: 2px solid #FFFFFF;
-    color: white;
-    padding: 15px 15px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    font-family: 'Archivo Narrow', sans-serif;
-    width: 100%
-}
-
-button:hover {
-    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
-}
-
-button:active{ transform: translateY(2px);
-}
-*/
